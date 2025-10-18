@@ -1,6 +1,5 @@
 # DL- Developing a Recurrent Neural Network Model for Stock Prediction
-# NAME: JOHN PAUL J
-# REGISTER NUMBER: 212223230093
+
 ## AIM
 To develop a Recurrent Neural Network (RNN) model for predicting stock prices using historical closing price data.
 
@@ -39,9 +38,9 @@ Predict on test data, plot actual vs. predicted prices.
 
 ## PROGRAM
 
-### Name: S.YOGESH
+### Name: JOHN PAUL J
 
-### Register Number:212224230311
+### Register Number:212223230093
 
 ```python
 
@@ -135,8 +134,8 @@ def train_model(model, train_loader, criterion, optimizer, epochs=20):
         train_losses.append(total_loss / len(train_loader))
         print(f"Epoch [{epoch+1}/{epochs}], Loss: {total_loss / len(train_loader):.4f}")
 # Plot training loss
-    print('Name: Sharan Kumar G')
-    print('Register Number: 212224230260')
+    print('Name: John Paul J')
+    print('Register Number: 212223230093')
     plt.plot(train_losses, label='Training Loss')
     plt.xlabel('Epoch')
     plt.ylabel('MSE Loss')
